@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Debug.Log("This is a test");
         horizontalMove = Input.GetAxisRaw("Horizontal") * _runSpeed;
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, false);
     }
