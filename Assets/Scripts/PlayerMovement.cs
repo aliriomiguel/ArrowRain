@@ -11,11 +11,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float _runSpeed = 40f;
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     private void FixedUpdate()
     {
         Debug.Log("This is a test");
